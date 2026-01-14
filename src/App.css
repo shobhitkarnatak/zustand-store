@@ -1,0 +1,70 @@
+ul {
+  padding: 0;
+}
+
+.main-container {
+  padding: 2rem;
+  height: 100vh;
+  /* background-color: #1e1e1e; */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-input {
+  padding: 0.50rem;
+  outline: none;
+  border-radius: 2px 0px 0px 2px;
+  border: 1px solid rgb(92, 89, 89);
+  width: 18rem;
+}
+
+.form-submit-btn {
+  background-color: #005975;
+  padding: 0.5rem;
+  border-radius: 0px 2px 2px 0px;
+  border: white;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.course-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 23rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 2px solid white;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+
+.course-item-col-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.delete-btn {
+  padding: 0.3rem 0.8rem;
+  color: white;
+  background-color: #ff0000cc;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  align-self: flex-end;
+}
